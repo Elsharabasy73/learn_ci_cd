@@ -1,0 +1,24 @@
+#skip the nameing
+on:
+  push:
+    branches:
+      - main
+      - "release/**"
+    paths:
+      - "src/**"
+      - ".github/workflows/**"
+
+  pull_request:
+    branches:
+      - main
+      - "release/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout action
+        uses: actions/checkout@v4.2.2
+
+      - name: run tests
+        run: npm test
