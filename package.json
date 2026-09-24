@@ -1,0 +1,21 @@
+{
+  "name": "learn_ci_cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash src/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elsharabasy73/learn_ci_cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Elsharabasy73/learn_ci_cd/issues"
+  },
+  "homepage": "https://github.com/Elsharabasy73/learn_ci_cd#readme"
+}
